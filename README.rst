@@ -10,7 +10,7 @@ Install these: ::
 
     pip install -r dev_requirements.txt
 
-    .. Which is better than installing those many programs
+    // Which is better than installing those many programs
     pip install sphinx-rtd-theme
     pip install sphinx-gallery
 
