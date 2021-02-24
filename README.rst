@@ -6,6 +6,14 @@ View the output here:
 
 https://coding-to-music.github.io/sphinx-gallery/
 
+Install these: ::
+
+    pip install -r dev_requirements.txt
+
+    .. Which is better than installing those many programs
+    pip install sphinx-rtd-theme
+    pip install sphinx-gallery
+
 .. image:: https://dev.azure.com/sphinx-gallery/sphinx-gallery/_apis/build/status/sphinx-gallery.sphinx-gallery?branchName=master
     :target: https://dev.azure.com/sphinx-gallery/sphinx-gallery/_build/latest?definitionId=1&branchName=master
 
