@@ -71,6 +71,7 @@ target/
 # General temporary files to ignore
 *.swp
 *.swo
+.vscode 
 
 # VisualStudioCode
 .history
