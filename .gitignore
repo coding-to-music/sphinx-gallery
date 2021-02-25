@@ -71,10 +71,10 @@ target/
 # General temporary files to ignore
 *.swp
 *.swo
-.vscode 
 
 # VisualStudioCode
 .history
+.vscode 
 
 # Jupyter notebooks
 .ipynb_checkpoints
