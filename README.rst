@@ -14,6 +14,34 @@ Install these: ::
     pip install sphinx-rtd-theme
     pip install sphinx-gallery
 
+Running into problems with the python version being called, needs to be 3.7 but it is finding Python 2.7 ::
+
+    813  pip install -e .
+    814  python --version
+
+    // see what versions of python are available
+    815  locate /python | grep /bin
+    816  ls -l /usr/bin/python* 
+
+    // use -s to see what the effect would be to remove it but does not actually remove it
+    817  apt -s remove python2.7
+    818  apt autoremove
+    819  sudo apt autoremove
+    820  sudo apt -s remove python2.7
+
+
+    821  grep bin/python$ /usr/bin/*
+    
+    822  pip install setuptools
+    823  pip install setuptools==3.7
+    824  python --version
+    825  setuptools --version
+    826  pip install -e .
+    827  pip install -r dev-requirements.txt
+    828  pip install -e .
+
+
+
 .. image:: https://dev.azure.com/sphinx-gallery/sphinx-gallery/_apis/build/status/sphinx-gallery.sphinx-gallery?branchName=master
     :target: https://dev.azure.com/sphinx-gallery/sphinx-gallery/_build/latest?definitionId=1&branchName=master
 
