@@ -21,6 +21,19 @@ import sphinx_gallery
 from sphinx_gallery.sorting import FileNameSortKey
 import sphinx_rtd_theme
 
+from time import strftime, localtime
+# strftime("%a, %d %b %Y %I:%M %p %Z", localtime())
+
+# There are two options for replacing |today|:
+
+# 1. If you set today to some non-false value, then it is used:
+
+##today = ''
+# 2. Otherwise, today_fmt is used as the format for a strftime call.
+
+##today_fmt = '%B %d, %Y'
+today_fmt = "%a, %d %b %Y %I:%M %p %Z"
+
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
