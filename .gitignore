@@ -78,3 +78,6 @@ target/
 
 # Jupyter notebooks
 .ipynb_checkpoints
+
+# Python venv
+ver3.7
